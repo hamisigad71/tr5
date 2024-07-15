@@ -971,11 +971,19 @@ color: #aa8453;
     padding: 0;
 }
 .logo-img {
-    padding: 0px 0;
-    width: 260px;
+    padding: 0;
+    width: 360px;
     text-align: center;
     border-radius: 0.5rem;
 }
+
+@media screen and (max-width: 414px) {
+    .logo-img {
+        width: 560px;
+        padding-left: 80%;
+    }
+}
+
 .dropdown .nav-link i {
     padding-left: 0px;
     font-size: 8px;
@@ -5451,9 +5459,18 @@ select {
     .header .caption h1 {
         font-size: 30px;
         margin-bottom: 15px;
-        letter-spacing: 10px;
+        letter-spacing: 6px;
         line-height: 1.35em;
     }
+
+    .logo-img {
+        padding-left: 0%;
+      
+        width: 310px;
+        text-align: center;
+        border-radius: 0.5rem;
+    }
+    
     
     .header .caption h3 {
     font-size: 30px;
