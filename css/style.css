@@ -5464,10 +5464,12 @@ select {
     }
 
     .logo-img {
-        padding-left: 0%;
-      
-        width: 310px;
-        text-align: center;
+    left: 8%;
+    bottom: 50px;
+      margin-left: 0;
+      position: relative;
+        width: 410px;
+        text-align: left;
         border-radius: 0.5rem;
     }
     
